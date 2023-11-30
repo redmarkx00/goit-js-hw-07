@@ -43,7 +43,7 @@ const handleGalleryClick = (event) => {
     instance.show();
     
     // handleOnEscKeyPress
-    const handleOnEscKeyPress = (event) = {
+    const handleOnEscKeyPress = (event) => {
         if(event.key === 'Escape') {
             instance.close()
     window.removeEventListener('keydown', handleOnEscKeyPress);
@@ -53,4 +53,4 @@ const handleGalleryClick = (event) => {
     window.addEventListener('keydown', handleOnEscKeyPress);
 };
 
-galleryList.addEventListener("click", handleGlleryClick);
+galleryList.addEventListener("click", handleGalleryClick);
